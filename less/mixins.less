@@ -1,1 +1,25 @@
-// Mixins in here
+
+.flex(@direction:row; @justify:justify; @align:left;)
+{
+    display:flex;
+    flex-direction:@direction;
+    justify-content: @justify;
+    align-items:@align;
+}
+
+.bottom-border(@size:1px; @type:solid; @color:black;)
+{
+    border-bottom:@size @type @color;
+}
+
+.create-button(@width:200px; @height:20px; @bgcolor:silver; @color:@white; @fontsize:1rem; @radius:0; @fontweight:bold;)
+{
+    .flex(@align:center; @justify:center;);
+    width:@width;
+    height:@height;
+    background-color:@bgcolor;
+    font-size:@fontsize;
+    border-radius:@radius;
+    font-weight:bold;
+    color:@color;
+}

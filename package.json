@@ -1,0 +1,22 @@
+{
+  "name": "preprocessing-ii",
+  "version": "1.0.0",
+  "description": "automate less compiling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaiahFlax/Preprocessing-II.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsaiahFlax/Preprocessing-II/issues"
+  },
+  "homepage": "https://github.com/IsaiahFlax/Preprocessing-II#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
